@@ -34,11 +34,11 @@
 }
 
 body {
-    background-color: #eaeaea;
+    /* background-color: #eaeaea; */
+    background: linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35) ) 0% 0% /     cover, url("https://x.png"), url("http://img.netbian.com/file/2022/0311/011321OZPMH.jpg") 0px 0px;
+    background-attachment: fixed;
     margin: 0;
-    color: #34495e;
-    overflow-x: hidden;
-    overflow-y: auto;
+    color: #7F95D1;
 }
 
 h1 {
